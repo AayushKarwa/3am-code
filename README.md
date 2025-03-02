@@ -1,4 +1,4 @@
-# 3am Code Dark Italics
+# 3am Code 
 
 A sleek and modern **dark theme** for VS Code, designed for late-night coding sessions. This version of the **3am Code** theme introduces **italicized syntax highlighting** to enhance readability and aesthetics.
 
