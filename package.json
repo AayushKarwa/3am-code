@@ -37,12 +37,8 @@
         "label": "3am Code Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/3am-code-color-theme.json"
-      },
-      {
-        "label": "3am Code Dark Italics",
-        "uiTheme": "vs-dark",
-        "path": "./themes/3am-code-dark-italics.json"
       }
+     
     ]
   },
   "gallery": {
