@@ -9,6 +9,17 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AayushKarwa/3am-code"
+  },
+  "icon": "images/icon.jpg",
+  "gallery": {
+    "images": [
+      "images/screenshot2.png",
+      "images/screenshot1.png"
+    ]
+  },
   "contributes": {
     "themes": [
       {
