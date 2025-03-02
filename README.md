@@ -1,16 +1,54 @@
-# 3am-code README
+# 3am Code Dark Italics
 
-## Working with Markdown
+A sleek and modern **dark theme** for VS Code, designed for late-night coding sessions. This version of the **3am Code** theme introduces **italicized syntax highlighting** to enhance readability and aesthetics.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## ✨ Features
+- **Dark, high-contrast theme** optimized for low-light environments.
+- **Italicized keywords, comments, and special syntax** for better emphasis.
+- **Enhanced syntax highlighting** for improved readability.
+- **Perfect for late-night coding sessions.**
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## 📸 Screenshots
+### Code Preview
+![Screenshot 1](images/screenshot1.png)
 
-## For more information
+### UI Preview
+![Screenshot 2](images/screenshot2.png)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## 🔧 Installation
+### From VS Code Marketplace
+1. Open **VS Code**.
+2. Go to **Extensions** (`Ctrl+Shift+X`).
+3. Search for **"3am Code Dark Italics"**.
+4. Click **Install**.
+5. Go to **Settings > Color Theme** and select **"3am Code Dark Italics"**.
 
-**Enjoy!**
+### Manual Installation
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/AayushKarwa/3am-code
+   ```
+2. Open VS Code and go to **Extensions**.
+3. Click on `...` (More Actions) > **Install from VSIX**.
+4. Select the `.vsix` file from the cloned repo.
+5. Apply the theme from **Settings > Color Theme**.
+
+## 🔧 Customization
+If you'd like to tweak the theme, you can modify the `3am-code-color-theme.json` file in the `themes/` folder.
+
+## 🛠 Extension Details
+- **Name:** 3am Code Dark Italics
+- **Display Name:** 3am Code
+- **Description:** A perfect theme to code at 3AM with italicized elements.
+- **Publisher:** AayushKarwa
+- **Repository:** [GitHub](https://github.com/AayushKarwa/3am-code)
+- **Version:** 0.0.1
+- **License:** MIT
+
+## 📢 Feedback & Contributions
+- Found a bug or want to suggest a feature? Open an [issue](https://github.com/AayushKarwa/3am-code/issues).
+- Feel free to **fork** and contribute!
+
+## 📜 License
+This theme is open-source under the [MIT License](LICENSE). Enjoy coding at **3AM**! 🚀
+

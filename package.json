@@ -1,8 +1,10 @@
 {
   "name": "3am-code-by-ak",
-  "displayName": "3am-code",
-  "description": "A perfect theme to code at 3am",
-  "version": "0.0.1",
+  "displayName": "3am Code",
+  "description": "A sleek, high-contrast dark theme optimized for late-night coding sessions.",
+  "publisher": "AayushKarwa",
+  "version": "0.0.2",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.97.0"
   },
@@ -13,20 +15,47 @@
     "type": "git",
     "url": "https://github.com/AayushKarwa/3am-code"
   },
-  "icon": "images/icon.jpg",
-  "gallery": {
-    "images": [
-      "images/screenshot2.png",
-      "images/screenshot1.png"
-    ]
+  "homepage": "https://github.com/AayushKarwa/3am-code",
+  "bugs": {
+    "url": "https://github.com/AayushKarwa/3am-code/issues"
   },
+  "icon": "images/icon.jpg",
+  "galleryBanner": {
+    "color": "#1E1E1E",
+    "theme": "dark"
+  },
+  "keywords": [
+    "dark-theme",
+    "night-mode",
+    "developer-theme",
+    "vscode-theme",
+    "3am-code"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "3am-code",
+        "label": "3am Code Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/3am-code-color-theme.json"
+      },
+      {
+        "label": "3am Code Dark Italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/3am-code-dark-italics.json"
       }
     ]
+  },
+  "gallery": {
+    "images": [
+      "images/screenshot1.png",
+      "images/screenshot2.png"
+    ]
+  },
+  "scripts": {
+    "publish": "vsce publish",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "vsce": "^2.14.0"
   }
 }
