@@ -1,0 +1,21 @@
+{
+  "name": "3am-code-by-ak",
+  "displayName": "3am-code",
+  "description": "A perfect theme to code at 3am",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "3am-code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/3am-code-color-theme.json"
+      }
+    ]
+  }
+}
