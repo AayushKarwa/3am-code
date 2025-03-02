@@ -1,4 +1,4 @@
-name: Publish VS Code Extension
+name: Publish or Update VS Code Extension
 
 on:
   push:
@@ -24,8 +24,16 @@ jobs:
       - name: Install dependencies
         run: npm install  
 
-      - name: Package and Publish Extension
-        run: vsce publish --pat ${{ secrets.VSCE_PAT }}
+      - name: Attempt to Update Extension
+        id: update
+        continue-on-error: true
+        run: vsce publish patch --pat ${{ secrets.VSCE_PAT }}
+
+      - name: Publish New Version (if update failed)
+        if: steps.update.outcome == 'failure'
+        run: |
+          echo "🔄 Update failed, publishing a new version..."
+          vsce publish --pat ${{ secrets.VSCE_PAT }}
 
       - name: Check for Success
-        run: echo "✅ VS Code extension published successfully!"
+        run: echo "✅ VS Code extension updated or published successfully!"

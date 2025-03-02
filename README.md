@@ -1,4 +1,8 @@
-# 3am Code 
+# 3am Code 🌙
+
+![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/aayushkarwa.3am-code-by-ak)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/aayushkarwa.3am-code-by-ak)
+[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/aayushkarwa.3am-code-by-ak)
 
 A sleek and modern **dark theme** for VS Code, designed for late-night coding sessions. This version of the **3am Code** theme introduces **italicized syntax highlighting** to enhance readability and aesthetics.
 
