@@ -41,12 +41,12 @@ A sleek and modern **dark theme** for VS Code, designed for late-night coding se
 If you'd like to tweak the theme, you can modify the `3am-code-color-theme.json` file in the `themes/` folder.
 
 ## 🛠 Extension Details
-- **Name:** 3am Code Dark Italics
+- **Name:** 3am-code-by-ak
 - **Display Name:** 3am Code
-- **Description:** A perfect theme to code at 3AM with italicized elements.
+- **Description:** A perfect theme for late night coding sessions.
 - **Publisher:** AayushKarwa
 - **Repository:** [GitHub](https://github.com/AayushKarwa/3am-code)
-- **Version:** 0.0.1
+- **Version:** 0.0.8
 - **License:** MIT
 
 ## 📢 Feedback & Contributions

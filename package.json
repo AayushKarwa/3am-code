@@ -3,7 +3,7 @@
   "displayName": "3am Code",
   "description": "A sleek, high-contrast dark theme optimized for late-night coding sessions.",
   "publisher": "AayushKarwa",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "license": "MIT",
   "engines": {
     "vscode": "^1.97.0"
