@@ -3,7 +3,7 @@
   "displayName": "3am Code",
   "description": "A sleek, high-contrast dark theme optimized for late-night coding sessions.",
   "publisher": "AayushKarwa",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "engines": {
     "vscode": "^1.97.0"
@@ -34,9 +34,24 @@
   "contributes": {
     "themes": [
       {
+        "label": "3am Code Dark no italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/3am-code-dark-noitalics.json"
+      },
+      {
         "label": "3am Code Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/3am-code-color-theme.json"
+      },
+      {
+        "label": "3am Code Light",
+        "uiTheme": "vs",
+        "path": "./themes/3am-code-light-color-theme.json"
+      },
+      {
+        "label": "3am Code Light no italics",
+        "uiTheme": "vs",
+        "path": "./themes/3am-code-light-noitalics.json"
       }
      
     ]
